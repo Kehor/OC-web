@@ -30,6 +30,11 @@ section div{
     justify-content: space-around;
 }
 
+mark{
+    background-color: #0ceda3;
+    color: #003668;
+}
+
 .text{
     flex-direction: column;
     justify-content: initial;
@@ -39,8 +44,8 @@ section div{
 }
 
 .contact{
-    background-color: rgb(78, 135, 241);
-    padding: 1em;
+    background-color: #0277bd;
+    padding: 0.5em;
     max-height: 3em;
     max-width: 3em;
     margin: 1em;
@@ -58,12 +63,15 @@ section div{
 }
 
 #top{
-    background-color: rgb(131, 62, 177);
+    background-color: #7451eb;
+    color: #ffffff;
 }
 
 #middle{
     background-color: rgb(255, 255, 255);
+    color: #003668;
 }
 #bottom{
-    background-color: rgb(77, 77, 172);
+    background-color: #003668;
+    color: #ffffff;
 }
