@@ -13,7 +13,8 @@ img{
 
 section{
     position: relative;
-    padding: 10vh;
+    min-height: 30vh;
+    padding: 5vh;
 }
 
 p{
@@ -84,6 +85,8 @@ mark{
 #bottom{
     background-color: #003668;
     color: #ffffff;
+    padding-bottom: 0;
+    padding-left: 12vw;
 }
 #bottom div{
     flex-direction: column;
