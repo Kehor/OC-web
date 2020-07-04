@@ -13,6 +13,7 @@ img{
 
 section{
     position: relative;
+    min-height: 33vh;
     padding: 5em;
 }
 
