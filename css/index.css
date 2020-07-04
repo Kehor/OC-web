@@ -1,0 +1,95 @@
+body,h1{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+img{
+    max-height: 350px;
+    max-width: 350px;
+}
+
+section{
+    position: relative;
+    min-height: 33vh;
+    padding: 5vh;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 0em;
+}
+
+h1{
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+}
+
+section div{
+    display: flex;
+    justify-content: space-around;
+}
+
+mark{
+    background-color: #0ceda3;
+    color: #003668;
+}
+
+.text{
+    flex-direction: column;
+    justify-content: initial;
+    align-items: initial;
+    text-align: justify;
+    max-width: 50%;
+}
+
+.contact{
+    background-color: #0277bd;
+    padding: 0.5em;
+    max-height: 3em;
+    max-width: 3em;
+    margin: 1em;
+    margin-left: 0em;
+}
+
+
+.contact img{
+    height: 100%;
+    width: 100%;
+}
+
+#bloc_page
+{
+    margin: auto;
+}
+
+#top{
+    background-color: #7451eb;
+    color: #ffffff;
+    padding-bottom: 0;
+}
+
+#middle{
+    background-color: rgb(255, 255, 255);
+    color: #003668;
+}
+#bottom{
+    background-color: #003668;
+    color: #ffffff;
+}
+#bottom div{
+    flex-direction: column;
+}
+#button{
+    flex-direction: initial !important;
+    justify-content: initial;
+}
