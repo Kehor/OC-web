@@ -1,4 +1,4 @@
-body,p,h1,h2{
+body,h1{
     margin: 0;
 }
 
@@ -13,16 +13,24 @@ img{
 
 section{
     position: relative;
-    height: 15em;
     padding: 5em;
 }
 
-h1,h2,p{
+p{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 0em;
+}
+
+h1{
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2{
-    font-size: large;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
 }
 
 section div{
@@ -40,7 +48,7 @@ mark{
     justify-content: initial;
     align-items: initial;
     text-align: justify;
-    max-width: 45%;
+    max-width: 50%;
 }
 
 .contact{
@@ -49,6 +57,7 @@ mark{
     max-height: 3em;
     max-width: 3em;
     margin: 1em;
+    margin-left: 0em;
 }
 
 
@@ -65,6 +74,7 @@ mark{
 #top{
     background-color: #7451eb;
     color: #ffffff;
+    padding-bottom: 0;
 }
 
 #middle{
@@ -74,4 +84,11 @@ mark{
 #bottom{
     background-color: #003668;
     color: #ffffff;
+}
+#bottom div{
+    flex-direction: column;
+}
+#button{
+    flex-direction: initial !important;
+    justify-content: initial;
 }
